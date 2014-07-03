@@ -1,9 +1,59 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-        <meta charset="utf-8">
-        <title>Awesome HTML5 Webpage</title>        
+        <meta charset="utf-8" />
+        <title>My Blog</title> 
+		<meta name="viewport" content="width=device-width" />
+		<link rel="stylesheet" type="text/css" href="style.css"/>
+		<link rel="stylesheet" type="text/css" href="css/reset.css"/>
+		<link rel="stylesheet" type="text/css" href="css/responsive.css"/>
+		<link href='http://fonts.googleapis.com/css?family=Raleway:400,100,700,500,300' rel='stylesheet' type='text/css' />
+		<script src="http://code.jquery.com/jquery-latest.min.js"></script>
+		<script src="js/jquery.slides.min.js"></script>		
+		<script>
+			$(function(){
+			  $("#slideshow").slidesjs({
+				height: 300,
+				navigation:false
+			  });
+			});
+		</script>
 </head>
 <body>
+	<header>
+		<div id="logo"><p>My Blog</p><span>by Rafael A. Portillo</span></div>
+		<nav>
+		    <ul>
+				<li><a href="#">Inicio</a></li>
+				<li><a href="#">Acerca de</a></li>
+				<li><a href="#">Contacto</a></li>
+				<li><a href="#">Pagina Ejemplo</a></li>
+			</ul>
+		</nav>
+	</header>
+	
+	<section id="main">
+		<div id="no-slide">
+			<section id="slideshow">
+				<div class="slide">
+					<img class="thumb" src="http://lorempixel.com/470/300/" />
+					<article>
+						<hgroup><h2><a href="#">Titulo de nuestro articulo</a></h2></hgroup>
+						<p class="date">26 de Diciembre de 2014 en <a href="#">Categoria 1</a></p>
+						<p class="extract">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel justo eget arcu faucibus porttitor. Sed quis lectus quam. Pellentesque at libero convallis, vulputate urna quis, pretium dolor. Vestibulum dictum interdum libero, ac tempus turpis viverra non. Suspendisse dapibus nisi mauris, vel volutpat augue facilisis sed. Nunc sit amet lacinia ipsum. Pellentesque sed arcu eget urna interdum fermentum non ac libero. Sed in elementum sem.</p>
+					</article>
+				</div>
+				
+				<div class="slide">
+					<img class="thumb" src="http://lorempixel.com/470/300/" />
+					<article>
+						<hgroup><h2><a href="#">Titulo de nuestro articulo</a></h2></hgroup>
+						<p class="date">26 de Diciembre de 2014 en <a href="#">Categoria 1</a></p>
+						<p class="extract">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel justo eget arcu faucibus porttitor. Sed quis lectus quam. Pellentesque at libero convallis, vulputate urna quis, pretium dolor. Vestibulum dictum interdum libero, ac tempus turpis viverra non. Suspendisse dapibus nisi mauris, vel volutpat augue facilisis sed. Nunc sit amet lacinia ipsum. Pellentesque sed arcu eget urna interdum fermentum non ac libero. Sed in elementum sem.</p>
+					</article>
+				</div>
+			</section>
+		</div>
+	</section>
 </body>
 </html>
