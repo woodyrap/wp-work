@@ -1,5 +1,5 @@
 /*
-Theme Name: Nombre del Theme
+Theme Name: MyBlog
 Theme URI: www.myblog.com
 Description: Blank Wordpress Template developed by Rafael A. Portillo
 Version: 1.0
@@ -136,7 +136,17 @@ header nav ul li a:hover{
 	font-size:0.8rem;
 	font-weight:500;
 	margin-bottom:10px;
+	margin-right:5px;
 	color:#777777;	
+	display:inline-block;
+}
+
+#main #slideshow article .post-categories{
+	font-family: 'Raleway', helvetica, arial,	sans-serif;
+	font-size:0.8rem;
+	font-weight:500;
+	list-style:none;
+	display:inline-block;
 }
 
 #main #slideshow .slidesjs-pagination li{
@@ -169,17 +179,23 @@ header nav ul li a:hover{
 #main #article_list article{
 	margin-bottom:40px;
 	margin-right:4%;
-	padding-bottom:10px;
+	padding-bottom:40px;
 	border-bottom:1px solid #333333;
 	overflow:hidden;
 }
 
 #main #article_list article .thumb{
-	width:35%
-	margin-right:4%;
+	width:35%;
 	float:left;
+	margin-right:4%;	
 	margin-bottom:2%;
 }
+
+#main #article_list article .thumb img{
+	width:100%;
+	height:100%;
+}
+
 
 #main #article_list article h2{
 	font-family:'Raleway', helvetica, arial, sans-serif;
@@ -214,6 +230,11 @@ header nav ul li a:hover{
 	font-size:0.8rem;
 	color:#777777;
 	margin-bottom:10px;	
+}
+
+#main #article_list article .date ul{
+	list-style:none;
+	display:inline-block;
 }
 
 #main #article_list #pagination{
