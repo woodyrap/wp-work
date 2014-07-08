@@ -303,6 +303,17 @@ header nav ul li a:hover{
 #main #article_list #box_comments{
 	background:#ccc
 }
+
+#main #article_list #cat_name {
+font-family: "Raleway", "open sans", helvetica, Arial, sans-serif;
+font-size: 2rem;
+color: #333333;
+font-weight: 500;
+margin-bottom: 30px;
+border-bottom: 1px solid #333;
+margin-right: 30px;
+padding-bottom: 10px;
+}
 /*---MAIN---Aside---*/
 
 #main aside{
