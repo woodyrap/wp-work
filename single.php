@@ -13,10 +13,10 @@
 				<div class="extract"><?php the_content(); ?></div>						
 			</article>
 		<?php endwhile; else: ?>
-			<h1>No se encontraron Articulos</h1>
+			<h1><?php _e( 'Articles does not found', 'myblog' ); ?></h1>
 		<?php endif; ?>			
 		<div id="comments">
-			<h3>Comentarios</h3>
+			<h3><?php _e( 'Comments', 'myblog' ); ?></h3>
 			<div id="box_comments">
 				<?php comments_template(); ?>
 			</div>

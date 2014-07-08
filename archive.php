@@ -13,12 +13,12 @@
 				<div class="extract"><?php the_excerpt(); ?></div>						
 			</article>
 		<?php endwhile; else: ?>
-			<h1>No se encontraron Articulos</h1>
+			<h1><?php _e( 'Articles does not found', 'myblog' ); ?></h1>
 		<?php endif; ?>
 			<div id="pagination">
 				<p>				    
-					<?php next_posts_link('<- Post Siguientes'); ?>
-					<?php previous_posts_link('Post Anteriores ->'); ?>
+					<?php next_posts_link(__( 'Next Posts', 'myblog' )); ?>
+					<?php previous_posts_link(__( 'Previous Posts', 'myblog' )); ?>
 				</p>
 			</div>
 		</section>

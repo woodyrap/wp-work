@@ -12,6 +12,6 @@
 					</article>
 				</div>
 	<?php endwhile; else: ?>
-			<h1>No se encontraron Articulos</h1>
+			<h1><?php _e( 'Articles does not found', 'myblog' ); ?></h1>
 	<?php endif; ?>
 </section>
