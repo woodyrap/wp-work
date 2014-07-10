@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Myblog\n"
-"POT-Creation-Date: 2014-07-08 13:36-0600\n"
-"PO-Revision-Date: 2014-07-08 13:36-0600\n"
+"POT-Creation-Date: 2014-07-10 15:26-0600\n"
+"PO-Revision-Date: 2014-07-10 15:26-0600\n"
 "Last-Translator: Rafael Antonio Portillo <rafael_a_portillo@yahoo.com>\n"
 "Language-Team: rp503.com <rafael_a_portillo@yahoo.com>\n"
 "Language: en_US\n"
@@ -16,19 +16,35 @@ msgstr ""
 "X-Poedit-SearchPath-0: .\n"
 "X-Poedit-SearchPath-1: ..\n"
 
-#: ../archive.php:16 ../index.php:19 ../page.php:16 ../single.php:16
-#: ../slideshow.php:15
+#: ../archive-product.php:3
+msgid "Product Avaliables"
+msgstr "Product Avaliables"
+
+#: ../archive-product.php:13 ../single-product.php:14
+#: ../taxonomy-categories_product.php:13
+msgid "Price: "
+msgstr "Price: "
+
+#: ../archive-product.php:23 ../archive.php:16 ../index.php:19 ../page.php:16
+#: ../single-product.php:24 ../single.php:16 ../slideshow.php:15
+#: ../taxonomy-categories_product.php:23
 msgid "Articles does not found"
 msgstr "Articles does not found"
 
-#: ../archive.php:20 ../index.php:23
+#: ../archive-product.php:27 ../archive.php:20 ../index.php:23
+#: ../taxonomy-categories_product.php:27
 msgid "Next Posts"
 msgstr "Next Posts"
 
-#: ../archive.php:21 ../index.php:24
+#: ../archive-product.php:28 ../archive.php:21 ../index.php:24
+#: ../taxonomy-categories_product.php:28
 msgid "Previous Posts"
 msgstr "Previous Posts"
 
-#: ../single.php:19
+#: ../single-product.php:27 ../single.php:19
 msgid "Comments"
 msgstr "Comments"
+
+#: ../taxonomy-categories_product.php:3
+msgid "Products in"
+msgstr "Products in"

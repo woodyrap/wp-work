@@ -132,6 +132,14 @@ header nav ul li a:hover{
 	overflow:hidden;
 }
 
+#main  h1{
+	font-family: 'Raleway', helvetica, arial,	sans-serif;
+	font-size:3rem;
+	font-weight:500;
+	color:#333333;
+	text-align:left;	
+}
+
 /*-SlideShow-*/
 
 #main #slideshow{
